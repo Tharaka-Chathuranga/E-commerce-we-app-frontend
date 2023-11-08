@@ -1,0 +1,61 @@
+.user-page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  /* background: #1d2b3a; */
+
+  /*linear-gradient(45deg, #0a1828, #450133)  background: linear-gradient(45deg, #6acfc7, #0c1a1a 40%); */
+  background: linear-gradient(45deg, #330033, #000033);
+  z-index: 1;
+}
+.user-page-container header {
+  background-color: rgb(14, 4, 11);
+}
+.user-page-container header i {
+  color: antiquewhite;
+}
+.user-page-container header a {
+  color: antiquewhite;
+}
+.user-page-container header i:hover {
+  color: antiquewhite;
+
+  transform: scale(1.2);
+}
+.user-page-container .navbar-container .navbar-list li a {
+  color: antiquewhite;
+}
+.user-page-container .navbar-container .navbar-list li a.active {
+  color: rgb(162, 246, 208);
+}
+
+.user-page-container .navbar-container .navbar-list li a.active {
+  color: rgb(162, 246, 208);
+}
+.main-navbar .navbar-user-container .user-container-link:hover {
+  color: rgb(162, 246, 208);
+}
+.user-page-container .navbar-container {
+  background: rgb(14, 4, 11);
+}
+.user-page-image-container {
+  z-index: 2;
+}
+.user-page-container .footer {
+  background-color: rgb(14, 4, 11);
+}
+.user-page-details-container {
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: fit-content;
+  padding: 50px;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  border: none;
+  z-index: 2;
+}
+.user-page-footer {
+  bottom: 0;
+}

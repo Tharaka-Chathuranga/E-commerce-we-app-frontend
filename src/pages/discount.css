@@ -1,0 +1,26 @@
+.discount-product-layout-section {
+  top: 0;
+  position: absolute;
+  height: 120vh;
+  width: 100%;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.discount-main-section {
+  padding-top: 20vh;
+}
+.discount-product-layout-container Footer {
+  background-color: #03071d;
+  bottom: 0;
+}
+.discount-products-footer {
+  background-color: #03071d;
+  bottom: 0;
+}
+.discount-main-section {
+  min-height: 100vh;
+  padding-top: 10vh;
+  margin-top: 10vh;
+}

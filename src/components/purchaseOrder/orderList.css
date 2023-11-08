@@ -1,0 +1,8 @@
+.user-order-list {
+  max-height: 100vh;
+  min-height: 100vh;
+  position: absolute;
+  width: 100%;
+  top: 20%;
+  z-index: 100;
+}

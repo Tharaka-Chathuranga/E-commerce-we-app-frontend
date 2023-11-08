@@ -1,0 +1,225 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+header {
+  display: flex;
+  width: 100%;
+  top: 0;
+  right: 0;
+  z-index: 100;
+  background-color: #03071d;
+}
+.main-navbar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  /* background-color: linear-gradient(
+    90deg,
+    rgba(140, 140, 140, 15%),
+    rgba(140, 140, 140, 5%)
+  );
+  background: linear-gradient(to top, #957095, #03071d); */
+  flex-direction: row;
+  justify-content: space-between;
+  height: 75px;
+  transition: all 0.5s ease;
+  border-bottom: 0;
+}
+.navbar-logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10%;
+}
+
+.main-navbar .navbar-user-container {
+  display: flex;
+  flex-direction: row;
+  width: 30%;
+  transition: all 0.5s ease;
+  justify-content: space-between;
+  right: 5%;
+  align-items: center;
+}
+.user-container {
+  width: 100%;
+}
+
+.main-navbar .navbar-user-container .user-container-link {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  justify-content: end;
+  flex-direction: column;
+  align-items: center;
+  color: antiquewhite;
+}
+/* .user-container-text {
+  display: flex;
+  font-size: medium;
+  flex-direction: row;
+  justify-self: center;
+  align-items: center;
+  white-space: nowrap;
+}
+.user-container-text:hover {
+  font-weight: 700;
+  align-items: center;
+  color: rgb(85, 181, 186);
+} */
+
+.user-container a {
+  text-decoration: none;
+}
+.user-container-icon {
+  display: flex;
+  flex-direction: row;
+}
+.user-container-icon:hover {
+  color: rgb(227, 91, 123);
+  font-weight: 700;
+}
+.register-navigation,
+.login-navigation {
+  padding: 5px 0;
+  margin: 0px 30px;
+  text-decoration: none;
+  font-weight: 500;
+}
+.register-navigation:hover,
+.login-navigation:hover {
+  padding: 5px 0;
+  margin: 0px 30px;
+  text-decoration: none;
+  font-weight: 700;
+  color: rgb(187, 234, 236);
+}
+
+.notification {
+  background-color: #ff5733;
+  color: #fff;
+  font-size: 10px;
+  border-radius: 50%;
+  padding: 2.5px 5px;
+  align-self: right;
+  justify-self: top;
+}
+.import-navbar {
+  width: 30%;
+}
+.navbar-user-container.user-container a.active {
+  color: rgb(147, 7, 80);
+  font-weight: 700;
+}
+@media (max-width: 995px) {
+  header {
+    display: flex;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 100;
+    background-color: #03071d;
+  }
+  .main-navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /* background-color: linear-gradient(
+      90deg,
+      rgba(140, 140, 140, 15%),
+      rgba(140, 140, 140, 5%)
+    );
+    background: linear-gradient(to top, #957095, #03071d); */
+    flex-direction: row;
+    justify-content: space-between;
+    height: 50px;
+    transition: all 0.5s ease;
+    border-bottom: 0;
+  }
+  .navbar-logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    top: 5px;
+    margin-top: 5px;
+    margin-left: 5px;
+  }
+  .navbar-logo-container img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .main-navbar .navbar-user-container {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    transition: all 0.5s ease;
+    justify-content: space-between;
+    right: 5%;
+  }
+}
+@media (max-width: 768px) {
+  header {
+    display: flex;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 100;
+    background-color: #03071d;
+  }
+  .main-navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /* background-color: linear-gradient(
+      90deg,
+      rgba(140, 140, 140, 15%),
+      rgba(140, 140, 140, 5%)
+    );
+    background: linear-gradient(to top, #957095, #03071d); */
+    flex-direction: row;
+    justify-content: space-between;
+    height: 40px;
+    transition: all 0.5s ease;
+    border-bottom: 0;
+  }
+  .navbar-logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    top: 5px;
+    margin-top: 5px;
+    margin-left: 5px;
+  }
+  .navbar-logo-container img {
+    width: 30px;
+    height: 30px;
+  }
+  .profile-icon {
+  }
+
+  .main-navbar .navbar-user-container {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    transition: all 0.5s ease;
+    justify-content: space-between;
+    right: 5%;
+  }
+  .user-container Link .user-container-icon i {
+    height: 15px;
+    width: 15px;
+  }
+  .user-container Link .user-container-icon {
+    max-height: 15px;
+    max-width: 15px;
+  }
+}

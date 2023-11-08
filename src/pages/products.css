@@ -1,0 +1,14 @@
+/* products.css */
+
+/* .sidebar {
+  width: 20%; 
+  background-color: #f0f0f0; 
+  padding: 20px; 
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); 
+} */
+
+/* Main content styling */
+.main-content {
+  flex-grow: 1; /* Allow the main content to grow and take remaining space */
+  padding: 20px; /* Add padding for spacing */
+}

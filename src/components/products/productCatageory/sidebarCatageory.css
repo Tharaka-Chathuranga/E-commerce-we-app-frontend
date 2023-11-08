@@ -1,0 +1,60 @@
+/* Updated CSS to remove list item separation and default bullet */
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none; /* Remove default list item bullet */
+  text-decoration: none;
+}
+
+.side-bar-container {
+  position: fixed;
+  left: 0;
+  width: 20%;
+  height: 100%;
+  background: #042331;
+  overflow-y: scroll;
+}
+
+.side-bar-container header {
+  font-size: 22px;
+  color: white;
+  text-align: center;
+  line-height: 70px;
+  background: #063146;
+  user-select: none;
+}
+
+.side-bar-container ul li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.side-bar-container ul a {
+  display: block;
+  height: 100%;
+  width: 100%;
+  line-height: 65px;
+  font-size: 18px;
+  color: white;
+  padding-left: 10px;
+  box-sizing: border-box;
+  border-top: 1px solid;
+  box-sizing: border-box;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  transition: 0.4s;
+  text-decoration: none;
+}
+
+.sidebar li:hover a {
+  padding-left: 20px;
+  text-decoration: none;
+}
+
+.side-bar-container ul {
+  list-style: none;
+  padding: 10px;
+  margin: 0;
+}

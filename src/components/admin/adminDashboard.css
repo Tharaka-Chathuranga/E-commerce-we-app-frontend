@@ -1,0 +1,310 @@
+.admindashoard {
+  left: 20%;
+  position: relative;
+  width: 80%;
+}
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.user-edit-section {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 50%;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 7%;
+  height: 8%;
+}
+
+.user-edit-section Link i {
+  width: 7%;
+  height: 8%;
+}
+.user-edit-section a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+.user-edit-section a:hover {
+  text-decoration: underline;
+}
+
+.dashboard-stats {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.stat-box {
+  margin: 5%;
+  background-color: #d4e1f2;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  min-width: 40%;
+  min-height: 40%;
+  text-align: center;
+}
+
+.stat-box h3 {
+  font-size: 18px;
+  margin: 0;
+  color: #333;
+}
+
+.stat-box p {
+  font-size: 36px;
+  font-weight: 600;
+  margin: 10px 0;
+  color: #007bff;
+}
+
+.most-ordered-products {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.most-ordered-products h3 {
+  font-size: 24px;
+  margin: 0;
+  margin-bottom: 10px;
+  color: #333; /* Text color */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+table,
+th,
+td {
+  border: 1px solid #e0e0e0;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #f0f0f0;
+  font-weight: 600;
+}
+
+.today-transactions {
+  background-color: #ffffff; /* White background */
+  border-radius: 8px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.today-transactions h3 {
+  font-size: 24px;
+  margin: 0;
+  margin-bottom: 10px;
+  color: #333; /* Text color */
+}
+
+.chart-container {
+  margin-top: 20px;
+}
+.product-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.product-image {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.product-image img {
+  max-width: 100%;
+}
+
+.product-details {
+  flex: 2;
+}
+
+.product-name {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.product-price {
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+
+.product-details {
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+
+.product-discount {
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+
+.product-quantity {
+  font-size: 1rem;
+}
+@media (max-width: 768px) {
+  .admindashoard {
+    left: 25%;
+    width: 75%;
+  }
+  h2 {
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+
+  .dashboard-stats {
+    margin-bottom: 10px;
+  }
+
+  .stat-box {
+    margin: 3%;
+    background-color: #d4e1f2;
+    padding: 5px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+    min-width: 20%;
+    min-height: 20%;
+    text-align: center;
+  }
+
+  .stat-box h3 {
+    font-size: 0.8rem;
+    margin: 0;
+    color: #333;
+  }
+
+  .stat-box p {
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin: 5px 0;
+    color: #007bff;
+  }
+
+  .most-ordered-products {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+  .most-ordered-products h3 {
+    font-size: 0.6rem;
+    margin: 0;
+    margin-bottom: 10px;
+    color: #333;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 6px;
+  }
+
+  table,
+  th,
+  td {
+    border: 1px solid #e0e0e0;
+  }
+
+  th,
+  td {
+    padding: 7px;
+    text-align: left;
+  }
+
+  th {
+    background-color: #f0f0f0;
+    font-weight: 500;
+  }
+
+  .today-transactions {
+    background-color: #ffffff; /* White background */
+    border-radius: 8px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+  .today-transactions h3 {
+    font-size: 0.6rem;
+    margin: 0;
+    margin-bottom: 7px;
+    color: #333; /* Text color */
+  }
+
+  .chart-container {
+    margin-top: 10px;
+  }
+  .product-card {
+    height: 20%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+
+  .product-image {
+    flex: 1;
+    margin-right: 7px;
+    width: 100%;
+    height: 60%;
+  }
+
+  .product-image img {
+    max-width: 100%;
+  }
+
+  .product-name {
+    font-size: 0.8rem;
+    font-weight: bold;
+    margin-bottom: 4px;
+  }
+
+  .product-price {
+    font-size: 0.7rem;
+    margin-bottom: 4px;
+  }
+
+  .product-details {
+    font-size: 0.7rem;
+    margin-bottom: 4px;
+  }
+
+  .product-discount {
+    font-size: 0.7rem;
+    margin-bottom: 4px;
+  }
+
+  .product-quantity {
+    font-size: 0.7rem;
+    margin-bottom: 4px;
+  }
+}

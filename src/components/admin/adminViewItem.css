@@ -1,0 +1,25 @@
+.admin-section-item-container {
+  top: 0;
+  left: 20%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: left;
+  width: 80%;
+  margin-left: 20%;
+  margin-right: 10%;
+  margin-top: 60px;
+  flex-direction: row;
+  overflow: hidden;
+}
+@media (max-width: 768px) {
+  .admin-section-item-container {
+    margin-left: 24%;
+    width: 76%;
+    padding: 0;
+    margin-right: 0;
+    overflow: hidden;
+    margin-top: 20px;
+    padding: 4px;
+    overflow: hidden;
+  }
+}

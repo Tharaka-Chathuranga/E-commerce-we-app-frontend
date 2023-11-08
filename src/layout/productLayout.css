@@ -1,0 +1,34 @@
+.product-layout-section {
+  top: 0;
+  position: absolute;
+  height: 120vh;
+  width: 100%;
+  margin-bottom: 10vh;
+}
+.main-section {
+  min-height: 100vh;
+  padding-top: 10vh;
+  margin-top: 30vh;
+}
+.product-layout-container Footer {
+  background-color: #1c1616;
+}
+.product-layout-container {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 768px) {
+  .main-section {
+    min-height: 100vh;
+    padding-top: 10vh;
+    margin-top: 5vh;
+  }
+  .product-layout-container Footer {
+    background-color: #1c1616;
+  }
+  .product-layout-container {
+    display: flex;
+    flex-direction: column;
+  }
+}

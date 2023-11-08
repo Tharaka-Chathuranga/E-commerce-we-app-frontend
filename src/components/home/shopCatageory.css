@@ -1,0 +1,25 @@
+.shop-by-catageory-container {
+  width: 100%;
+  padding: 40px;
+  background: rgb(246, 245, 247);
+  justify-content: center;
+}
+.shop-by-catageory-title {
+  color: rgb(191, 230, 220);
+  width: 100%;
+  text-align: center;
+}
+
+.shop-by-catageory-container:hover .shop-by-catageory-title {
+  color: #7ae6f7;
+  text-shadow: 0px 0px 10px #7ae6f7;
+  transform: scale(1.1);
+}
+@media (max-width: 768px) {
+  .shop-by-catageory-container {
+    width: 100%;
+    padding: 0;
+    background: rgb(246, 245, 247);
+    justify-content: center;
+  }
+}

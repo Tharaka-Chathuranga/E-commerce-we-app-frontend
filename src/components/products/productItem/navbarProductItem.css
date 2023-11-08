@@ -1,0 +1,137 @@
+/* navbarProductItem.css */
+
+/* Default Navbar styles */
+.navbar-container {
+
+  top: 0;
+  left: 0;
+  z-index: 10000;
+  width: 100%;
+}
+
+.navbar {
+  background-color: lightgreen;
+  padding: 0; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px; 
+  position: sticky;
+}
+
+.navbar-left {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.toggle-icon img {
+  width: 30px; 
+  height: 30px;
+  cursor: pointer;
+  margin-right: 20px;
+  margin-left: 20px; 
+}
+.navbar-home {
+  margin-left: 150px;
+}
+.navbar-home a {
+  text-decoration: none;
+  color: #333; /* Set your desired text color */
+  margin-left: 10px; /* Add spacing between the toggle icon and navbar icon */
+  font-size: 20px;
+}
+
+.external-nav-button-holder {
+  display: flex;
+  align-items: right;
+  margin-right: 20px;
+}
+
+.external-nav-button {
+  padding: 10px 20px; 
+  margin-right: 10px; 
+  background-color: white; 
+  border: 1px solid lightgreen; /* Add border */
+  border-radius: 5px; /* Add border radius for rounded corners */
+  text-decoration: none;
+  color: lightgreen; /* Text color */
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease; /* Add smooth hover transition */
+}
+.search-bars {
+  display: flex;
+  align-items: center; /* Vertically center items */
+}
+
+.search-form {
+  display: flex;
+  align-items: center;
+}
+
+.input-text-search {
+  display: flex;
+  align-items: center;
+  
+
+}
+.form-control{
+  height:fit-content;
+  border: #110f0f 20px;
+
+}
+
+.catagories-select {
+  /* Add your styles here for the select element */
+  
+ 
+  border-radius: 10px;
+  background-color: #f0f2f4;
+  color: #0f0e0e;
+  font-size: 16px;
+} 
+
+.btn-primary {
+  /* Add your styles here for the button element */
+ 
+  background-color: #e5e7ea;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+
+.external-nav-button:hover {
+  background-color: lightgreen;
+  color: white;
+}
+.catagories-select option[value=""] {
+  display: none;
+}
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: row;
+    justify-content: space-between; 
+    height: auto; 
+    width: 100%;
+  }
+
+  .external-nav-button-holder {
+    margin-top: 20px; 
+
+  /* .external-nav-button {
+    margin-right: 0; 
+    margin-bottom: 10px; 
+  } */
+  .form-control {
+    width: 100%;
+  }
+  .catagories-select {
+    width: 100%;
+    margin-top: 10px;
+  }
+  .btn {
+    width: 100%;
+    margin-top: 10px;
+  }
+}

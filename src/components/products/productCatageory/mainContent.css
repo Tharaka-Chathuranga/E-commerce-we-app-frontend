@@ -1,0 +1,27 @@
+.section-item-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: left;
+  justify-content: flex-start;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 60px;
+}
+
+.section-item-link {
+  text-decoration: none;
+  color: none; /* Link color */
+  transition: color 0.2s; /* Smooth color transition on hover */
+}
+
+.section-item-link:hover {
+  text-decoration: none;
+  color: none; /* Change link color on hover */
+}
+
+@media screen and (max-width: 768px) {
+  .section-item-card {
+    width: calc(50% - 20px);
+  }
+}

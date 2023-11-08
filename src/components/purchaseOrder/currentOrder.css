@@ -1,0 +1,67 @@
+/* currentOrder.css */
+
+.current-order-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  border: 1px solid #ddd;
+  padding: 10px;
+  width: 75%;
+  transition: background-color 0.3s ease;
+}
+
+.current-order-container:hover {
+  background-color: #e0e0e0;
+}
+
+.current-order-image img {
+  padding-left: 10px;
+  max-width: 100px;
+  height: auto;
+}
+
+.current-order-details {
+  flex: 1;
+  padding: 10px 5%;
+  margin-bottom: 10px;
+}
+
+.current-order-details h3 {
+  font-size: 18px;
+  margin: 0;
+}
+
+.current-order-details h4 {
+  font-size: 16px;
+  margin: 0;
+}
+.current-order-status {
+  padding: 10px 5%;
+}
+.current-order-status h3 {
+  font-size: 18px;
+  margin: 0;
+}
+
+.current-ordered-date {
+  padding-right: 10px;
+  font-size: 14px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .current-order-container {
+    flex-direction: column;
+    text-align: center;
+    background: transparent;
+  }
+
+  .current-order-details h3 {
+    font-size: 16px;
+  }
+
+  .current-order-details h4 {
+    font-size: 14px;
+  }
+}

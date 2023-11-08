@@ -1,0 +1,226 @@
+.slide-container {
+  position: relative;
+  box-shadow: 0 0 40px #2b031a;
+  opacity: 1;
+  background-color: rgb(245, 241, 241);
+  border-radius: 30px;
+  width: 500px;
+  height: 480px;
+}
+.slide-container img {
+  width: 480px;
+  height: 480px;
+  border-radius: 50px;
+}
+
+.slide-container::before,
+.slide-container::after {
+  content: "";
+  position: absolute;
+  background-color: transparent;
+  z-index: -1;
+}
+
+.slide-container::before {
+  top: 0;
+  left: 30px;
+  right: 30px;
+  width: calc(100% - 60px);
+  height: 15px;
+}
+
+.slide-container::after {
+  top: 30px;
+  left: 0;
+  width: 15px;
+  height: calc(100% - 60px);
+}
+.text-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  color: #2b031a;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+}
+.text-overlay h4 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.slide-container:hover {
+  box-shadow: 0 0 40px #7ae6f7;
+  transform: scale(1.03);
+}
+.slide-container:hover h4 {
+  color: #7ae6f7;
+  font-weight: 700;
+}
+@media (max-width: 980px) {
+  .slide-container {
+    position: relative;
+    box-shadow: 0 0 40px #2b031a;
+    opacity: 1;
+    background-color: rgb(245, 241, 241);
+    border-radius: 30px;
+    width: 370px;
+    height: 370px;
+  }
+  .slide-container img {
+    width: 370px;
+    height: 370px;
+    border-radius: 50px;
+  }
+}
+@media (max-width: 740px) {
+  .slide-container {
+    position: relative;
+    box-shadow: 0 0 40px #2b031a;
+    opacity: 1;
+    background-color: rgb(245, 241, 241);
+    border-radius: 30px;
+    width: 350px;
+    height: 350px;
+  }
+  .slide-container img {
+    width: 350px;
+    height: 350px;
+    border-radius: 50px;
+  }
+}
+@media (max-width: 580px) {
+  .slide-container {
+    position: relative;
+    box-shadow: 0 0 40px #2b031a;
+    opacity: 1;
+    background-color: rgb(245, 241, 241);
+    border-radius: 30px;
+    width: 310px;
+    height: 310px;
+  }
+  .slide-container img {
+    width: 310px;
+    height: 310px;
+    border-radius: 50px;
+  }
+}
+@media (max-width: 504px) {
+  .slide-container {
+    position: relative;
+    box-shadow: 0 0 40px #2b031a;
+    opacity: 1;
+    background-color: rgb(245, 241, 241);
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+  }
+  .slide-container img {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    border: 1px solid white;
+  }
+  .text-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 2px;
+  }
+  .text-overlay h4 {
+    font-size: 0.85rem;
+    margin-bottom: 2px;
+  }
+  .slide-container:hover {
+    box-shadow: 0 0 20px #7ae6f7;
+    transform: scale(1.03);
+  }
+  .slide-container:hover h4 {
+    color: #7ae6f7;
+    font-weight: 700;
+    font-size: 0.85rem;
+  }
+}
+@media (max-width: 440px) {
+  .slide-container {
+    position: relative;
+    box-shadow: 0 0 40px #2b031a;
+    opacity: 1;
+    background-color: rgb(245, 241, 241);
+    border-radius: 10px;
+    width: 250px;
+    height: 250px;
+  }
+  .slide-container img {
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    border: 1px solid white;
+  }
+  .text-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 2px;
+  }
+  .text-overlay h4 {
+    font-size: 0.8rem;
+    margin-bottom: 2px;
+  }
+  .slide-container:hover {
+    box-shadow: 0 0 20px #7ae6f7;
+    transform: scale(1.03);
+  }
+  .slide-container:hover h4 {
+    color: #7ae6f7;
+    font-weight: 700;
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 390px) {
+  .slide-container {
+    position: relative;
+    box-shadow: 0 0 40px #2b031a;
+    opacity: 1;
+    background-color: rgb(245, 241, 241);
+    border-radius: 10px;
+    width: 220px;
+    height: 220px;
+  }
+  .slide-container img {
+    width: 200px;
+    height: 220px;
+    border-radius: 10px;
+    border: 1px solid white;
+  }
+  .text-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 2px;
+  }
+  .text-overlay h4 {
+    font-size: 0.8rem;
+    margin-bottom: 2px;
+  }
+  .slide-container:hover {
+    box-shadow: 0 0 20px #7ae6f7;
+    transform: scale(1.03);
+  }
+  .slide-container:hover h4 {
+    color: #7ae6f7;
+    font-weight: 700;
+    font-size: 0.8rem;
+  }
+}

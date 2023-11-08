@@ -1,0 +1,154 @@
+.admin-create-user {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  max-width: 600px;
+  margin: 0 auto;
+  margin-left: 35%;
+}
+
+.admin-create-user h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.admin-create-user-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.admin-create-form-group {
+  margin-bottom: 20px;
+}
+
+.admin-create-label {
+  font-size: 16px;
+  margin-bottom: 5px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#admin-create-lastName,
+#admin-create-firstName {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: white;
+}
+.input-field-create-admin {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.admin-create-select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.textarea-field-create-admin {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.create-item-image {
+  width: 100%;
+  padding: 10px;
+}
+
+.admin-create-user-image-preview {
+  max-width: 100%;
+  max-height: 200px;
+  margin-top: 10px;
+}
+
+.error-messages {
+  color: #ff0000;
+  font-size: 14px;
+  margin-top: 10px;
+}
+.admin-create-user-button {
+  background-color: lightgray;
+  color: black;
+  font-size: 18px;
+  padding: 10px 20px;
+  border: 2px solid black;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.admin-create-user-button:hover {
+  background: linear-gradient(90deg, #4ff3ff, #f96dc1, #f72aa5, #f70094);
+  transform: scale(1.1);
+  border: 2px solid darkgray;
+}
+
+@media (max-width: 768px) {
+  .admin-create-user {
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    max-width: 70%;
+    margin-left: 25%;
+  }
+
+  .admin-create-user h2 {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+  }
+
+  .admin-create-form-group {
+    margin-bottom: 10px;
+  }
+
+  .admin-create-label {
+    font-size: 0.8rem;
+    margin-bottom: 3px;
+  }
+
+  .input-field-create-admin {
+    padding: 5px;
+  }
+
+  .admin-create-select {
+    padding: 5px;
+    font-size: 0.8rem;
+    color: black;
+  }
+
+  .textarea-field-create-admin {
+    padding: 5px;
+  }
+
+  .create-item-image {
+    padding: 5px;
+  }
+
+  .admin-create-user-image-preview {
+    margin-top: 5px;
+  }
+
+  .error-messages {
+    font-size: 0.8rem;
+    margin-top: 10px;
+  }
+
+  .admin-create-user-button {
+    font-size: 0.8rem;
+    padding: 5px 10px;
+    margin-top: 10px;
+  }
+}

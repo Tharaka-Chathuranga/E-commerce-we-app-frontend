@@ -1,0 +1,159 @@
+.admin-order-view {
+  position: relative;
+  top: 0;
+  display: flex;
+  margin-left: 20%;
+  width: 80%;
+  height: 100%;
+  background-color: #fff;
+  padding: 20px;
+  box-sizing: border-box;
+  overflow-y: auto;
+}
+
+.order-list-container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.order-list-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.order-view-search-bar {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  width: 70%;
+}
+
+.oreder-view-search-input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.order-table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  border: 1px solid #ccc;
+}
+
+.order-header {
+  background-color: #f2f2f2;
+  text-align: left;
+  padding: 10px;
+}
+
+.order-header,
+.order-data {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.order-row:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.order-row:hover {
+  background-color: #e0e0e0;
+  cursor: pointer;
+}
+.order-view-edit-button {
+  background-color: lightgray;
+  color: black;
+  font-size: 18px;
+  padding: 0;
+  border: 2px solid black;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 5px;
+  height: 35px;
+  width: 45px;
+}
+
+.order-view-edit-button:hover {
+  background: linear-gradient(90deg, #4ff3ff, #77ebf3, #f72aa5, #f70094);
+  transform: scale(1.1);
+  border: 2px solid darkgray;
+}
+
+@media (max-width: 768px) {
+  .admin-order-view {
+    margin-left: 26%;
+    width: 74%;
+    padding: 5px;
+  }
+
+  .order-list-container {
+    padding: 5px;
+    width: 100%;
+  }
+
+  .order-list-title {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .order-view-search-bar {
+    margin-bottom: 10px;
+    width: 100%;
+    height: 40px;
+    font-size: 0.4rem;
+  }
+
+  #order-view-search {
+    width: 100%;
+    padding: 0;
+    font-size: 0.7rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    height: 35px;
+    justify-self: center;
+    align-self: center;
+    display: flex;
+  }
+
+  .order-header {
+    padding: 4px;
+    font-size: 0.8rem;
+  }
+
+  .order-header,
+  .order-data {
+    border: 1px solid #ccc;
+    padding: 4px;
+    font-size: 0.6rem;
+  }
+
+  .order-row:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+  .order-row:hover {
+    background-color: #e0e0e0;
+    cursor: pointer;
+  }
+
+  .order-view-edit-button {
+    font-size: 0.6rem;
+    border: 1px solid black;
+    border-radius: 7px;
+
+    margin-top: 4px;
+    height: 20px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

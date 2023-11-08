@@ -1,0 +1,250 @@
+
+
+.payment-section-container {
+  background-color: #007bff; 
+  color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  width: 100%;
+  height: 100%;
+}
+
+.card-type {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+select {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #fff; 
+  color: #007bff; 
+  border: 1px solid #007bff; 
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s; /
+}
+
+.card-detail-form {
+  background-color: #007bff;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input[type="text"] {
+  padding: 10px;
+  margin-bottom: 15px;
+  font-size: 16px;
+  border: 2px solid #fff;
+  border-radius: 1px;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 10px;
+  transition: background-color 0.3s;
+}
+
+input[type="text"]::placeholder {
+  color: #fff;
+  font-weight: 100;
+}
+
+input[type="number"] {
+  padding: 10px;
+  margin-bottom: 15px;
+  font-size: 16px;
+  border: 2px solid #fff;
+  border-radius: 1px;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 10px;
+  transition: background-color 0.3s;
+}
+
+input[type="number"]::placeholder {
+  color: #fff;
+  font-weight: 100;
+}
+
+input[type="submit"] {
+  background-color: #007bff;
+  color: #f9f9f9;
+  padding: 10px 20px;
+  border: 2px solid #fff;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+background: linear-gradient(90deg, #3eeaf7, #f70094);;
+}
+
+/* Container for amount section */
+.amount-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+/* Individual sections for total amount and delivery charges */
+.total-amount,
+.delivery-charges {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #007bff;
+  border-radius: 10px;
+  text-align: left;
+  color: #fff;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Styling for the headings within the sections */
+.total-amount h5,
+.delivery-charges h5 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Styling for the values within the sections */
+.total-amount h5#subtotal-value,
+.delivery-charges h5#delivery-charges-value {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+@media (max-width: 768px) {
+  .payment-section-container {
+    background-color: #007bff; 
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .card-type {
+    margin-bottom: 5px;
+  }
+  
+  label {
+    display: block;
+    font-size: 0.8rem;
+    margin-bottom: 5px;
+  }
+  
+  select {
+    width: 100%;
+    padding: 5px;
+    font-size: 0.8rem;
+    background-color: #fff; 
+    color: #007bff; 
+    border: 1px solid #007bff; 
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s; /
+  }
+  
+  .card-detail-form {
+    background-color: #007bff;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .payment-card-detail-form {
+    padding: 5px;
+    margin-bottom: 10px;
+    font-size: 0.8rem;
+    border: 1px solid #fff;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  .payment-card-detail-form::placeholder {
+    color: #fff;
+    font-weight: 100;
+    font-size: 0.8rem;
+  }
+  
+.payment-card-number {
+    padding: 5px;
+    margin-bottom: 5px;
+    font-size: 0.8rem;
+    border: 1px solid #fff;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+  }
+  
+.payment-card-number::placeholder {
+    color: #fff;
+    font-weight: 100;
+    font-size: 0.8rem;
+  }
+  
+  payment-submit-button {
+    background-color: #007bff;
+    color: #f9f9f9;
+    padding: 5px 10px;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .amount-section {
+
+    margin-bottom: 10px;
+  }
+  
+
+  .total-amount,
+  .delivery-charges {
+
+    padding: 5px;
+
+    border-radius: 10px;
+
+  }
+
+  .total-amount h5,
+  .delivery-charges h5 {
+    margin: 0;
+    font-size: 0.8rem;
+    font-weight: bold;
+  }
+  
+
+  .total-amount h5#subtotal-value,
+  .delivery-charges h5#delivery-charges-value {
+    font-size: 0.8rem;
+    font-weight: bold;
+  }
+  
+}
+
+
+

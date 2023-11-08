@@ -1,0 +1,15 @@
+/* .home-page {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.home-page MainLayout {
+  height: fit-content;
+  top: 0;
+  padding: 20px;
+}
+.home-page CarouselSection {
+  height: 600px;
+  top: 600px;
+} */

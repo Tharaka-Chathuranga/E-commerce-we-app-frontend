@@ -1,0 +1,169 @@
+.footer-container {
+  margin-bottom: 0;
+  left: 0;
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 170px;
+  flex-direction: row;
+  bottom: 0;
+}
+.footer {
+  background-color: #333;
+  color: #fff;
+  width: 100%;
+  display: flex;
+  position: fixed;
+  height: 100%;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+  margin-bottom: 0;
+  bottom: 0;
+}
+
+.footer-logo h2 {
+  font-size: 24px;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links ul li {
+  margin: 5px 0;
+}
+
+.footer-links ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 400;
+}
+
+.footer-social {
+  text-align: center;
+}
+
+.footer-social h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.footer-social a {
+  color: #fff;
+  font-size: 24px;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.footer-bottom {
+  background-color: #222;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.footer-bottom p {
+  margin: 0;
+  font-size: 14px;
+}
+@media (max-width: 768px) {
+  .footer-container {
+    height: 150px;
+  }
+  .footer-logo {
+    height: 40px;
+    width: 50px;
+  }
+  .footer-logo img {
+    height: 30px;
+    width: 30px;
+  }
+
+  .footer-logo h2 {
+    font-size: 0.4rem;
+    width: 50px;
+  }
+  .footer {
+    background-color: #333;
+    color: #fff;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    height: 100%;
+  }
+
+  .footer-content {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 0;
+    bottom: 0;
+  }
+
+  .footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .footer-links ul li {
+    margin: 5px 0;
+  }
+
+  .footer-links ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 400;
+    font-size: 0.8rem;
+  }
+
+  .footer-social {
+    text-align: center;
+  }
+
+  .footer-social h3 {
+    font-size: 0.8rem;
+    margin-bottom: 10px;
+  }
+  .footer-social h3 a {
+    font-size: 0.8rem;
+    margin-bottom: 10px;
+  }
+  .icon-small {
+    font-size: 10px;
+  }
+
+  .footer-social a {
+    color: #fff;
+    font-size: 0.8rem;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+
+  .footer-bottom {
+    background-color: #222;
+    text-align: center;
+    padding: 10px 0;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .footer-bottom p {
+    margin: 0;
+    font-size: 0.8rem;
+  }
+}

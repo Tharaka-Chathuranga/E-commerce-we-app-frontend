@@ -1,0 +1,98 @@
+/* CSS for AboutUs Component */
+.about-us-section {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background: rgb(245, 245, 245);
+}
+.about-us-container {
+  background-color: rgb(236, 235, 238) b;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(249, 247, 247, 0.1);
+  text-align: center;
+  margin: 20px;
+  width: 80%;
+  box-shadow: 0 0 40px #f3f3f3;
+}
+.about-us-container::before,
+.about-us-container::after {
+  content: "";
+  position: absolute;
+  background-color: transparent;
+  z-index: -1;
+}
+.about-us-container::before {
+  top: 0;
+  left: 30px;
+  right: 30px;
+  width: calc(100% - 60px);
+  height: 15px;
+}
+
+.about-us-container::after {
+  top: 30px;
+  left: 0;
+  width: 15px;
+  height: calc(100% - 60px);
+}
+.about-us-container:hover {
+  box-shadow: 0 0 4px #7ae6f7;
+  transform: scale(1.03);
+}
+.about-us-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: rgb(6, 0, 17);
+  text-shadow: 0px 0px 10px antiquewhite;
+}
+
+.typewriter-container {
+  text-align: center;
+  margin: 0 auto;
+  width: 80%;
+  white-space: pre-wrap;
+  border-right: 3px solid #fffefe;
+  animation: typing 3s steps(30) infinite, blink-caret 0.5s step-end infinite;
+}
+
+.typewriter-container p {
+  font-family: monospace;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 10px 0;
+  color: rgb(0, 1, 0);
+  /* text-shadow: 0px 0px 10px #7ae6f7; */
+  padding-bottom: 50px;
+}
+.typewriter-container h4 {
+  font-size: 20px;
+  margin-top: 20px;
+  color: rgb(7, 7, 7);
+  /* text-shadow: 0px 0px 10px antiquewhite; */
+}
+.typewriter-container .invitation {
+  color: rgb(4, 4, 4);
+  /* text-shadow: 0px 0px 10px antiquewhite; */
+}
+/* @keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+} */
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #f8f6f6;
+  }
+}

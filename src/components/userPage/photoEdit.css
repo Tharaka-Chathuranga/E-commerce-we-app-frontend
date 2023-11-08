@@ -1,0 +1,157 @@
+.user-image-container {
+  padding: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.image-upload-container {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  background-color: #b7f6ee;
+  box-shadow: 0 0 10px #b7f6ee;
+  align-items: center;
+  padding: 0;
+}
+.image-upload-container:hover {
+  background-color: #00dfc4;
+  box-shadow: 0 0 15px #00dfc4;
+}
+
+.rounded-image {
+  width: 95%;
+  height: 95%;
+  border-radius: 50%;
+  object-fit: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.edit-icon {
+  font-size: 15px;
+  color: #b7f6ee;
+}
+.image-upload-container .edit-icon {
+  position: absolute;
+  bottom: 0px;
+  left: 5px;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 50%;
+  font-size: 4px;
+}
+
+.user-name {
+  margin: 10px;
+  font-weight: bold;
+  font-size: 30px;
+  color: #b7f6ee;
+}
+
+.user-page-remove-image {
+  margin-top: 10px;
+  background-color: #b7f6ee;
+  color: #1d2b3a;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0 0 10px #b7f6ee;
+}
+
+.user-page-remove-image:hover {
+  margin-top: 10px;
+  background-color: #00dfc4;
+  transform: scale(1.05);
+  color: #1d2b3a;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0 0 15px #00dfc4;
+}
+@media (max-width: 768px) {
+  .user-image-container {
+    padding: 5%;
+  }
+  .image-upload-container {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    background-color: #b7f6ee;
+    box-shadow: 0 0 5px #b7f6ee;
+    align-items: center;
+    padding: 0;
+  }
+  .image-upload-container:hover {
+    background-color: #00dfc4;
+    box-shadow: 0 0 15px #00dfc4;
+  }
+
+  .rounded-image {
+    width: 95%;
+    height: 95%;
+    border-radius: 50%;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .edit-icon {
+    font-size: 15px;
+    color: #b7f6ee;
+  }
+  .image-upload-container .edit-icon {
+    position: absolute;
+    bottom: 0px;
+    left: 5px;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 50%;
+    font-size: 2px;
+  }
+
+  .user-name {
+    margin: 8px;
+    font-weight: bold;
+    font-size: 0.8rem;
+    color: #b7f6ee;
+  }
+
+  .user-page-remove-image {
+    margin-top: 10px;
+    background-color: #b7f6ee;
+    color: #1d2b3a;
+    padding: 2px 5px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 0 5px #b7f6ee;
+    width: 75px;
+    height: 15px;
+    font-size: 0.5rem;
+  }
+
+  .user-page-remove-image:hover {
+    margin-top: 10px;
+    background-color: #00dfc4;
+    transform: scale(1.05);
+    color: #1d2b3a;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 0 15px #00dfc4;
+  }
+}
